@@ -1,0 +1,63 @@
+body {
+  padding-top: 5px;
+}
+
+.nav a {
+  color: #3a3a3a;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('assets/cover.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 180px;
+  left: 50px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+
+}
+.learn-more .profile {
+  padding: 50px 50px;
+
+}
+.learn-more h3 {
+  padding-top: 40px;
+  font-family: 'Shift', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.learn-more p {
+  font-size: 16px;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
