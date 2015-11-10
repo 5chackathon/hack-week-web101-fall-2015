@@ -41,12 +41,13 @@ body {
 
 .learn-more {
   background-color: #f7f7f7;
-
+  height: 500px;
 }
+
 .learn-more .profile {
   padding: 50px 50px;
-
 }
+
 .learn-more h3 {
   padding-top: 40px;
   font-family: 'Shift', sans-serif;
@@ -61,3 +62,55 @@ body {
 .learn-more a {
   color: #00b0ff;
 }
+
+.blog {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.blog .container {
+  position: relative;
+  top: 80px;
+  left: 50px;
+}
+
+.blog h1 {
+  color: #000;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.blog p {
+  font-size: 20px;
+  color: #000;
+  padding-bottom: 50px;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.posts li {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+}
+
+
